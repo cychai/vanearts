@@ -1,18 +1,28 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="UTF-8">
-<title><?php echo $title; ?>-风标留学</title>
-<!--[if lt IE 9]>
-<script src="js/html5.js"></script>
-<![endif]-->
-<link rel="stylesheet" href="css/vane360.css" type="text/css" media="all" />
+    <meta charset="UTF-8">
+    <title><?php echo $title; ?>-风标留学</title>
+    <meta name="baidu-site-verification" content="hjH0qM82ks" />
+    <link rel="stylesheet" href="css/vane360.css" type="text/css" media="all" />
+    <!--[if lt IE 9]>
+    <script src="js/html5.js"></script>
+    <![endif]-->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "//hm.baidu.com/hm.js?d09ac15d0f697a8d983c6335fa44d55a";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </head>
 <body>
 <header class="header">
     <div class="header-in">
         <section class="header-info">
-            <h1 class="logo-vane360"><a href="#" title="vane360"><img src="images/bg_logo_vane360.png" alt="vane360"></a> <i class="m-icon m-icon-shadow-br"></i></h1>
+            <h1 class="logo-vane360"><a href="/" title="vane360"><img src="images/bg_logo_vane360.png" alt="vane360"></a> <i class="m-icon m-icon-shadow-br"></i></h1>
             <span class="logo-font"><img src="images/bg_logo_vane360_font.png" alt=""></span>
             <div class="header-info-contact">
                 <p>
