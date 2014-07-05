@@ -1,33 +1,29 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title><?php echo $title; ?></title>
-        <script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
-        <script type="text/javascript" src="js/util.js"></script>
-        <link type="text/css" rel="stylesheet" href="css/affairs.css" />
-    </head>
-    <script language="JavaScript">
-        function myrefresh()
-        {
-            var args = "act=refresh&id=" + Math.random();
-            $.ajax({
-                type: "POST",
-                url: "photoajax.php",
-                data: args,
-                success: function() {
-
-                }
-            });
-        }
-        setInterval('myrefresh()', 1000 * 60 * 5); //5分钟刷新一次
-    </script>
-    <body>
-        <div class="header">
-            <div class="logo fl"><a href="#"></a></div>
-            <?php if (!$loginUrl): ?>
-                <div class="logout fr">
-                    【<a href="logout.php">安全退出</a>】
-                </div>
-            <?php endif ?>
-        </div>
+<header class="header">
+    <div class="header-in">
+        <section class="header-info">
+            <h1 class="logo-vane360"><a href="#" title="vane360"><img src="images/bg_logo_vane360.png" alt="vane360"></a> <i class="m-icon m-icon-shadow-br"></i></h1>
+            <span class="logo-font"><img src="images/bg_logo_vane360_font.png" alt=""></span>
+            <div class="header-info-contact">
+                <p>
+                    报名咨询热线：010-52870600
+                </p>
+                <p>
+                    风标留学微信：fblx
+                </p>
+            </div>
+        </section>
+        <nav class="mainNav"> 　　　
+            <ul class="clearfix">
+                <li><a  class="active" href="index.php" title="">首页</a></li>
+                <li><a href="news.php" title="">留学资讯</a></li>
+                <li><a href="courses.php" title="">留学课程</a></li>
+                <li><a href="colleges.php" title="">艺术院校</a></li>
+                <li><a href="cases.php" title="">成功案例</a></li>
+                <li><a href="teachers.php" title="">师资团队</a></li>
+                <li><a href="workshow.php" title="">作品展示</a></li>
+                <li><a href="about.php" title="">关于我们</a></li>
+                <li class="li-decorate"><i class="m-icon m-icon-shadow-bl"></i></li>
+            </ul>
+        </nav>
+    </div>
+</header>
