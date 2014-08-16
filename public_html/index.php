@@ -13,8 +13,9 @@
     <article class="m-slide m-slide-main">
         <section class="m-slide-cont">
             <ul>
-                <li> <a class="m-slide-cont-fullPic" href="#"><img src="images/temp/pic_960x360_01.jpg" alt="pic_980x400_01"></a> </li>
-                <li> <a class="m-slide-cont-fullPic" href="#"><img src="images/temp/pic_960x360_00.jpg" alt="pic_980x400_02"></a> </li>
+                <li> <a class="m-slide-cont-fullPic" href="#"><img src="upload/index/20140811_01.jpg" alt="2014英国艺术留学TOP10"></a> </li>
+                <li> <a class="m-slide-cont-fullPic" href="#"><img src="upload/index/20140811_02.jpg" alt="VArts艺术留学"></a> </li>
+                <li> <a class="m-slide-cont-fullPic" href="#"><img src="upload/index/20140811_03.jpg" alt="VArts直录伦艺班"></a> </li>
             </ul>
         </section>
         <div class="m-slide-btns"><a class="m-sbtn-prev" href="#"></a><a class="m-sbtn-next" href="#"></a></div>
