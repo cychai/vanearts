@@ -231,3 +231,4 @@ a:hover { text-decoration: underline }
 .sztd-wrap .main-cont { margin-top: 10px; }
 /* === 08-关于我们 === */
 .gywm-wrap .about-us { position: relative; width: 770px; overflow: hidden; z-index: 9; }
+.gywm-wrap .about-us .cont { line-height: 24px; }
