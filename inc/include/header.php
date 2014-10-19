@@ -2,7 +2,9 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title><?php echo $title; ?>-风标留学</title>
+    <title><?php echo $title; ?>-VAarts艺术留学</title>
+    <meta name="keywords" content="VAarts,艺术留学,工业设计,风标留学,风标教育" />
+    <meta name="description" content="风标教育旗下艺术留学品牌VAarts" />
     <meta name="baidu-site-verification" content="hjH0qM82ks" />
     <link rel="stylesheet" href="css/vane360.css" type="text/css" media="all" />
     <!--[if lt IE 9]>

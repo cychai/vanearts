@@ -75,6 +75,8 @@ a:hover { text-decoration: underline }
 .footer .footer-info { width: 100%; }
 .footer .footer-info td { vertical-align: middle; }
 .footer .footer-info a.logo-simple img { display: block; }
+.footer .footer-in .icp-info { padding-top: 10px; }
+
 /*! 名称：m-xx
     用途：公共模块
 ======================================== */
@@ -82,6 +84,7 @@ a:hover { text-decoration: underline }
 .m-slide { position: relative; overflow: hidden; z-index: 9; }
 .m-slide .m-slide-cont li { position: relative; vertical-align: middle; z-index: 9; }
 .m-slide .m-slide-cont li a.m-slide-cont-fullPic { display: block; overflow: hidden; }
+.m-slide .m-slide-cont li a.m-slide-cont-fullPic img { width: 960px; height: 380px; }
 .m-slide .m-slide-cont li .m-slide-cont-describe { position: absolute; left: 60px; top: 150px; width: 500px; color: #fff; font: normal 18px/24px "\5FAE\8F6F\96C5\9ED1"; z-index: 99; }
 .m-slide .m-slide-cont li .m-slide-cont-describe h3 { font-size: 40px; line-height: 52px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 10px; }
 .m-slide .m-slide-cont li .m-slide-cont-describe p { height: 100px; overflow: hidden; line-height: 1.8; }

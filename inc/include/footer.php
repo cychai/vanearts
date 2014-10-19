@@ -4,8 +4,7 @@
         	<tbody>
     		<tr>
     			<td width="100">风标留学</td>
-    			<td width="800">地址：北京市海淀区西三环北路久凌大厦北楼6层
-</td>
+    			<td width="800">地址：北京市海淀区西三环北路久凌大厦北楼6层</td>
     			<td width="60" rowspan="2"><a class="logo-simple" href="#"><img src="images/bg_logo_vane360_simple.png" alt=""></a></td>
     		</tr>
     		<tr>
@@ -14,6 +13,9 @@
     		</tr>
             </tbody>
     	</table>
+        <div class="icp-info">
+            <p>京ICP备13036445号-2</p>
+        </div>
     </div>
 </footer>
 <script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
