@@ -1,5 +1,5 @@
 <?php 
-    include '../inc/config/config.php';
+    include 'inc/config/config.php';
     $title = '作品展示';
     $page = 'works';
 ?>

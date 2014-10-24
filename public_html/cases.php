@@ -1,5 +1,5 @@
 <?php 
-    include '../inc/config/config.php';
+    include 'inc/config/config.php';
     $title = '成功案例';
     $page = 'cases';
 ?>
